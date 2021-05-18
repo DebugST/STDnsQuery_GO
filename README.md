@@ -36,9 +36,9 @@ func Test() {
 		"8.8.8.8:53",
 		"8.8.4.4:53",
 	})
-	dns.QueryA("www.google.com", 1, 3)
+	dns.QueryA("www.github.com", 1, 3)
 	dns.QueryFromTask(QueryTask{
-		Domain:      "api.google.com",
+		Domain:      "www.github.io",
 		Type:        TYPE_A,       //默认TYPE_A
 		Timeout:     5,            //超时时间 默认3
 		Retries:     3,            //重试次数 默认1
