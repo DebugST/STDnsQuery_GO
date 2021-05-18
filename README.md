@@ -4,6 +4,14 @@
 
 STDnsQuery 是一个快速DNS查询工具 其中 DnsClient 是一个方便快捷的调用类 支持 A、NS、CNAME、DNAME 查询 使用简单 
 
+## Install
+
+```
+git clone https://github.com/DebugST/STDnsQuery_GO.git
+cd STDnsQuery_GO
+go build main.go
+```
+
 ![STDnsQuery](https://raw.githubusercontent.com/DebugST/STDnsQuery_GO/main/Images/Screen%20Shot%202021-05-14%20at%2000.54.29.png)
 ![STDnsQuery](https://raw.githubusercontent.com/DebugST/STDnsQuery_GO/main/Images/Screen%20Shot%202021-05-14%20at%2000.57.33.png)
 
